@@ -1,0 +1,201 @@
+/* Contenedor principal del header */
+/* Estilo base para el header */
+
+header {
+    display: flex;
+    justify-content: space-between;  /* Espacio entre los elementos */
+    align-items: center;  /* Centra los elementos verticalmente */
+    width: 100%;
+    padding: 20px 10px;
+    position: relative;
+    flex-wrap: wrap;  /* Permite que los elementos se ajusten en pantallas pequeñas */
+}
+
+#logo-container {
+    display: flex;
+    justify-content: flex-start;  /* Alinea el logo a la izquierda */
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1;  /* El logo ocupa el espacio disponible */
+}
+
+#logo {
+    margin: 0;
+}
+
+#titulo {
+    font-size: 2rem;
+    margin: 0;
+    font-family: "Rubik Spray Paint";
+    text-align: center;  /* Centra el título */
+    flex-grow: 1;  /* El título ocupa el espacio disponible */
+}
+
+#menu {
+    display: flex;
+    justify-content: flex-end;  /* El menú se alinea a la derecha */
+    width: auto;
+    padding: 10px 0;
+}
+
+#menu ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    margin: 0 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;  /* Apila los elementos verticalmente */
+        align-items: center;  /* Centra todos los elementos */
+    }
+
+    #logo-container {
+        justify-content: flex-start;  /* El logo sigue alineado a la izquierda */
+        width: 100%;
+    }
+
+    #titulo {
+        text-align: center;  /* El título sigue centrado */
+        margin-bottom: 10px;  /* Da un pequeño espacio debajo del título */
+    }
+
+    #menu {
+        width: 100%;  /* El menú ocupa todo el ancho disponible */
+        justify-content: center;  /* El menú se centra debajo del título */
+    }
+}
+
+
+#nosotros {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;  
+}
+video {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    background-color: black;
+
+    }
+
+
+    
+
+footer {
+    background-color: black;
+    color: white
+    
+}
+#footermenu ul {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+
+#inicio{
+    color: rgb(15, 25, 22);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+header {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+    width: 100%;
+    padding: 20px 10px;
+    position: relative; 
+    flex-wrap: flex; 
+}
+#logo-container {
+    display: flex;
+    justify-content:center; 
+    gap: 10px;  
+}
+
+
+#logo {
+    margin: 0; 
+}
+
+#titulo {
+    margin: 0;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);  
+    font-family: "Rubik Spray Paint";
+    font-size: calc(10px + 5vw); ;
+}
+
+#menu {
+    display: flex;
+    justify-content: flex-end;  
+    flex-grow: 1; ; 
+}
+
+#menu ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    margin: 0 20px;  
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+
+
+
+}*/
