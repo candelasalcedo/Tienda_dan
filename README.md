@@ -19,5 +19,4 @@ https://dantienda.netlify.app/
 - HTML5 → estructura de la aplicación.  
 - CSS3 → estilos, diseño responsivo y animaciones.  
 - JavaScript → lógica del carrito y manejo de eventos.  
-## Estructura del proyecto
 
